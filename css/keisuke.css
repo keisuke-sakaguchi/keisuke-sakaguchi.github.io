@@ -1,0 +1,49 @@
+ul {
+  /* list-style: none; */
+}
+
+p.bold {
+  font-weight: bold;
+}
+
+p.cvheadline {
+  text-align: left;
+  float: left;
+  font-weight: bold;
+}
+p.cvyear {
+  text-align: right;
+  font-style: italic;
+
+}
+
+.emph {
+  font-weight: bold;
+}
+
+nav{
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+  color: #5e5e5e !important;
+  font-size: large;
+}
+
+body{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-size: large;*/
+  color: #5e5e5e !important;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+#profilepic{
+  background-color: #FFFFFF;
+}
