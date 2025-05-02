@@ -1,7 +1,14 @@
+
 #- name_jp: "BOOST"
 #  fund: "中島"
 #  fund_jp: ""
 #  period: 04/2026–03/2030
+#  budget: "x,000,000 JPY"
+#
+##- name_jp: "基盤B"
+#  fund: ""
+#  fund_jp: ""
+#  period: 04/2025–03/2028
 #  budget: "x,000,000 JPY"
 #
 #- name_jp: 
@@ -21,6 +28,13 @@
 #  fund_jp: ""
 #  period: 04/2024–03/2026
 #  budget: ",000,000 JPY"
+#
+#- name_jp: "ABCI グランドチャレンジ"
+#  fund: ""
+#  fund_jp: ""
+#  period: 04/2024–03/2026
+#  budget: ",000,000 JPY"
+
 
 - name_jp: "現実世界の逐次的環境変化に協調的に適応するマルチモーダル自然言語理解モデル"
   fund: "JSPS Fund for the Promotion of Joint International Research (Home-Returning Researcher Development Research) 21K21343"

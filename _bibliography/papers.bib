@@ -1,5 +1,102 @@
 ---
 ---
+@inproceedings{saito2025sketchdiagram,
+  title={Sketch2Diagram: Generating Vector Diagrams from Hand-Drawn Sketches},
+  author={Itsumi Saito and Haruto Yoshida and Keisuke Sakaguchi},
+  booktitle={The Thirteenth International Conference on Learning Representations},
+  year={2025},
+  url={https://openreview.net/forum?id=KvaDHPhhir},
+  project={https://sketikz.github.io/},
+  lang={en},
+  abbr={ICLR},
+  review={yes},
+  cls={conf},
+  month={April},
+  pdf={2025_iclr_sketikz.pdf},
+  address = "Singapore",
+  abstract={We address the challenge of automatically generating high-quality vector diagrams from hand-drawn sketches. Vector diagrams are essential for communicating complex ideas across various fields, offering flexibility and scalability. While recent research has progressed in generating diagrams from text descriptions, converting hand-drawn sketches into vector diagrams remains largely unexplored due to the lack of suitable datasets. To address this gap, we introduce SketikZ, a dataset comprising 3,231 pairs of hand-drawn sketches and thier corresponding TikZ codes as well as reference diagrams. Our evaluations reveal the limitations of state-of-the-art vision and language models (VLMs), positioning SketikZ as a key benchmark for future research in sketch-to-diagram conversion. Along with SketikZ, we present ImgTikZ, an image-to-TikZ model that integrates a 6.7B parameter code-specialized open-source large language model (LLM) with a pre-trained vision encoder. Despite its relatively compact size, ImgTikZ performs comparably to GPT-4o. This success is driven by using our two data augmentation techniques and a multi-candidate inference strategy. Our findings open promising directions for future research in sketch-to-diagram conversion and broader image-to-code generation tasks. SketikZ is publicly available.},
+}
+
+
+@inproceedings{kamoda2025detok,
+    title = "Weight-based Analysis of Detokenization in Language Models: Understanding the First Stage of Inference Without Inference",
+    author = "Kamoda, Go  and
+      Heinzerling, Benjamin  and
+      Inaba, Tatsuro  and
+      Kudo, Keito  and
+      Sakaguchi, Keisuke  and
+      Inui, Kentaro",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2025",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-naacl.355/",
+    pages = "6324--6343",
+    ISBN = "979-8-89176-195-7",
+    abstract = "According to the stages-of-inference hypothesis, early layers of language models map their subword-tokenized input, which does not necessarily correspond to a linguistically meaningful segmentation, to more meaningful representations that form the model`s {\textquotedblleft}inner vocabulary{\textquotedblright}.Prior analysis of this *detokenization* stage has predominantly relied on probing and interventions such as path patching, which involve selecting particular inputs, choosing a subset of components that will be patched, and then observing changes in model behavior.Here, we show that several important aspects of the detokenization stage can be understood purely by analyzing model weights, without performing any model inference steps.Specifically, we introduce an analytical decomposition of first-layer attention in GPT-2.Our decomposition yields interpretable terms that quantify the relative contributions of position-related, token-related, and mixed effects.By focusing on terms in this decomposition, we discover weight-based explanations of attention bias toward close tokens and attention for detokenization.",
+  lang={en},
+  review={yes},
+  abbr={NAACL Findings},
+  cls={conf},
+  pdf={2025_naacl_detok.pdf},
+}
+
+
+@inproceedings{lee2025crest,
+    title = "Self-Training Meets Consistency: Improving {LLM}s' Reasoning with Consistency-Driven Rationale Evaluation",
+    author = "Lee, Jaehyeok  and
+      Sakaguchi, Keisuke  and
+      Bak, JinYeong",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.naacl-long.528/",
+    pages = "10519--10539",
+    ISBN = "979-8-89176-189-6",
+    abstract = "Self-training approach for large language models (LLMs) improves reasoning abilities by training the models on their self-generated rationales. Previous approaches have labeled rationales that produce correct answers for a given question as appropriate for training. However, a single measure risks misjudging rationale quality, leading the models to learn flawed reasoning patterns. To address this issue, we propose CREST (Consistency-driven Rationale Evaluation for Self-Training), a self-training framework that further evaluates each rationale through follow-up questions and leverages this evaluation to guide its training. Specifically, we introduce two methods: (1) filtering out rationales that frequently result in incorrect answers on follow-up questions and (2) preference learning based on mixed preferences from rationale evaluation results of both original and follow-up questions. Experiments on three question-answering datasets using open LLMs show that CREST not only improves the logical robustness and correctness of rationales but also improves reasoning abilities compared to previous self-training approaches.",
+  lang={en},
+  review={yes},
+  abbr={NAACL},
+  cls={conf},
+  pdf={2025_naacl_crest.pdf},
+}
+
+
+@inproceedings{sobhani2025categorize,
+    title = "Language Models can Categorize System Inputs for Performance Analysis",
+    author = "Sobhani, Dominic  and
+      Zhong, Ruiqi  and
+      Marrese-Taylor, Edison  and
+      Sakaguchi, Keisuke  and
+      Matsuo, Yutaka",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.naacl-long.317/",
+    pages = "6241--6257",
+    ISBN = "979-8-89176-189-6",
+    abstract = {Language model systems are used to process diverse categories of input requests, ranging from improving creative writing to solving programming challenges. It would be useful to know which categories they are good at. However, existing evaluations compare model performance on pre-defined categories, failing to reflect a system’s performance on finer-grained or novel ones. We propose to automatically search for finer-grained categories based on inputs where a system performs well or poorly, and describe them in natural language. To search for these categories, we propose a large number of candidate category descriptions, e.g. “Communication Improvement”, find the subset of inputs that match the category descriptions, and calculate the performance on these categories; then we sort these categories based on their performance, thereby highlighting those that score high or low. As one application, we apply our method to compare LLaMA 3-70B and Claude 3 Opus, which have similar Elo-ratings on Chatbot Arena; our method finds the former is weaker at making text more professional and humorous while better at providing psychological insights, depicting a more nuanced picture of model performance.},
+    lang={en},
+    review={yes},
+    abbr={NAACL},
+    cls={conf},
+    pdf={2025_naacl_categorize.pdf},
+}
+
 
 @article{jiang2025delphi,
   abstract = {As our society adopts increasingly powerful artificial intelligence (AI) systems for pervasive use, there are growing concerns about machine morality---or lack thereof. Millions of users already rely on the outputs of AI systems, such as chatbots, as decision aids. Meanwhile, AI researchers continue to grapple with the challenge of aligning these systems with human morality and values. In response to this challenge, we build and test Delphi, an open-source AI system trained to predict the moral judgements of US participants. The computational framework of Delphi is grounded in the framework proposed by the prominent moral philosopher John Rawls. Our results speak to the promises and limits of teaching machines about human morality. Delphi demonstrates improved generalization capabilities over those exhibited by off-the-shelf neural language models. At the same time, Delphi's failures also underscore important challenges in this arena. For instance, Delphi has limited cultural awareness and is susceptible to pervasive biases. Despite these shortcomings, we demonstrate several compelling use cases of Delphi, including its incorporation as a component within an ensemble of AI systems. Finally, we computationally demonstrate the potential of Rawls's prospect of hybrid approaches for reliable moral reasoning, inspiring future research in computational morality.},
@@ -22,20 +119,6 @@
   pdf={2025_naturemi_delphi.pdf},
 }
 
-
-@article{kamoda2025detok,
-  title={Weight-based Analysis of Detokenization in Language Models: Understanding the First Stage of Inference Without Inference},
-  author={Go Kamoda and Benjamin Heinzerling and Tatsuro Inaba and Keito Kudo and Keisuke Sakaguchi and Kentaro Inui},
-  journal = {arXiv},
-  year={2025},
-  doi = {10.48550/arXiv.2501.15754},
-  lang = {en},
-  review = {no},
-  abbr = {arXiv},
-  pdf = {2025_arxiv_detok.pdf},
-  cls = {preprint},
-  abstract={According to the stages-of-inference hypothesis, early layers of language models map their subword-tokenized input, which does not necessarily correspond to a linguistically meaningful segmentation, to more meaningful representations that form the model's "inner vocabulary". Prior analysis of this detokenization stage has predominantly relied on probing and interventions such as path patching, which involve selecting particular inputs, choosing a subset of components that will be patched, and then observing changes in model behavior. Here, we show that several important aspects of the detokenization stage can be understood purely by analyzing model weights, without performing any model inference steps. Specifically, we introduce an analytical decomposition of first-layer attention in GPT-2. Our decomposition yields interpretable terms that quantify the relative contributions of position-related, token-related, and mixed effects. By focusing on terms in this decomposition, we discover weight-based explanations of attention bias toward close tokens and attention for detokenization.},
-}
 
 
 @article{kobayashi2025finch,
@@ -108,21 +191,6 @@
   abbr = {arXiv},
   pdf = {2024_arxiv_think.pdf},
   abstract = {This study investigates the internal reasoning mechanism of language models during symbolic multi-step reasoning, motivated by the question of whether chain-of-thought (CoT) outputs are faithful to the model's internals. Specifically, we inspect when they internally determine their answers, particularly before or after CoT begins, to determine whether models follow a post-hoc "think-to-talk" mode or a step-by-step "talk-to-think" mode of explanation. Through causal probing experiments in controlled arithmetic reasoning tasks, we found systematic internal reasoning patterns across models; for example, simple subproblems are solved before CoT begins, and more complicated multi-hop calculations are performed during CoT.},
-  cls = {preprint},
-}
-
-@ARTICLE{lee2024crest,
-  author = {{Lee}, Jaehyeok and {Sakaguchi}, Keisuke and {Bak}, JinYeong},
-  title = "{Self-Training Meets Consistency: Improving LLMs' Reasoning With Consistency-Driven Rationale Evaluation}",
-  journal = {arXiv},
-  year = 2024,
-  month = nov,
-  doi = {10.48550/arXiv.2411.06387},
-  lang = {en},
-  review = {no},
-  abbr = {arXiv},
-  pdf = {2024_arxiv_crest.pdf},
-  abstract = {Self-training approach for large language models (LLMs) improves reasoning abilities by training the models on their self-generated rationales. Previous approaches have labeled rationales that produce correct answers for a given question as appropriate for training. However, a single measure risks misjudging rationale quality, leading the models to learn flawed reasoning patterns. To address this issue, we propose CREST (Consistency-driven Rationale Evaluation for Self-Training), a self-training framework that further evaluates each rationale through follow-up questions and leverages this evaluation to guide its training. Specifically, we introduce two methods: (1) filtering out rationales that frequently result in incorrect answers on follow-up questions and (2) preference learning based on mixed preferences from rationale evaluation results of both original and follow-up questions. Experiments on three question-answering datasets using open LLMs show that CREST not only improves the logical robustness and correctness of rationales but also improves reasoning abilities compared to previous self-training approaches.},
   cls = {preprint},
 }
 

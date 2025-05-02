@@ -1,3 +1,11 @@
+- name: Information and Data Literacy 
+  name_jp: 情報とデータの基礎
+  address: Tohoku University, Graduate School of Information Science
+  address_jp: 東北大学 工学部
+  date: 2025 Spring
+  date_jp: 2025 春学期
+
+
 - name: Natural Language Processing
   name_jp: 自然言語処理
   address: Tohoku University, Graduate School of Information Science
