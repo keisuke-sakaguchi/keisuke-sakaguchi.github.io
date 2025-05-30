@@ -24,3 +24,5 @@ My long-term research goals are
 More specifically, my research interests include: robust NLP models for noisy texts (e.g., text normalization, parsing, automated grammatical error correction), 
 commonsense knowledge acquisition and reasoning, visual diagram understanding, NLP for educational purposes (first and second language acquisition), text generation (decoding algorithms), efficient data collection, and reliable evaluation metric design (meta-evaluation).
 
+For those interested in applying to our lab, please see [this information](https://keisuke-sakaguchi.github.io/admission).
+

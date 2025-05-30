@@ -25,3 +25,6 @@ social: true # includes social icons at the bottom of the page
 
 これまで取り組んでいる具体的なテーマとしては、大規模言語モデル（例: GPT）に対する包括的な評価、ダイアグラム理解、人工知能の倫理、常識知識の獲得、推論、文法誤り訂正、構文解析、テキスト生成・ディコーディングアルゴリズム、クラウドソーシングを用いた効率的なデータセットの作成、評価尺度の構築（メタ評価）、などがあります。
 
+
+研究室見学・進学に関するご案内は[こちら](https://keisuke-sakaguchi.github.io/admission_jp)から。
+
