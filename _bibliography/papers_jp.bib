@@ -1,4 +1,19 @@
-@inproceedings{negishi_etal_nlp2025_sketch,
+@techreport{nozue_etal_nl2025_zero,
+ author = {野末,慎之介 and 松林,優一郎 and 藤井,諒 and 岸波,洋介 and 森下,睦 and 坂口,慶祐},
+ issue = {6},
+ month = {6},
+ note = {日英機械翻訳では，日本語文内に発生する主語や目的語等の省略（ゼロ照応）が翻訳性能に影響を及ぼすことが議論されてきた．最新の大規模言語モデル（LLM）のゼロ照応解析の性能には依然として課題が残るものの，その日英翻訳性能は非常に高く，従来議論されてきた内容との間にギャップが生じている．そこで本研究では，GPT-4oを対象として，ゼロ照応に関する理解と日英翻訳性能の関係を詳細に分析することを試みる．具体的には，日本語の文間ゼロ照応事例に焦点を当て，省略されている項をモデルが特定できる場合とできない場合について，それぞれの翻訳性能を調査した．分析では，総合的な翻訳性能に加えて，翻訳後の英文で省略された項が補完されているか，補完に代名詞が利用されているか等の観点で分類を行い，傾向を観察した．分析の結果，GPT-4oはゼロ照応解析が失敗した事例でも自然な日英翻訳を実現できることが分かった．また，ゼロ照応解析が失敗した事例では，成功事例と比較して項が補完されにくい傾向が見られた．項が補完されない事例では，受動態の使用や述語の名詞化などの文構造が取られており，それらの翻訳文は省略された項が正しく推測できる形で記述されていることが確認された．, In Japanese-to-English machine translation, the omission of subjects and objects (zero anaphora) in Japanese has long been discussed as a factor affecting translation quality. Although current large language models (LLMs) still face challenges in zero anaphora resolution, their JA-to-EN translation quality is remarkably high, creating a gap with earlier concerns. This study aims to investigate the relationship between zero anaphora understanding and JA-to-EN translation performance, focusing on GPT-4o. Specifically, we examine inter-sentential zero anaphora in Japanese, analyzing translation performance between cases where the model successfully identifies omitted arguments and where it does not. Our analysis targeted not only overall translation quality, but also some aspects related to zero anaphora, such as whether zero pronouns are supplemented in the translation, whether pronouns are used for supplementation, and whether the supplemented arguments in the translated text can be correctly inferred from the context. The results showed that GPT-4o can produce natural translations even in instances where zero anaphora resolution fails. Furthermore, we observed a tendency that omitted arguments tend to be less frequently supplemented in instances where zero anaphora resolution fails. In unsupplemented cases, the translated sentences often employ syntactic structures such as passive voice or nominalization of predicates. It was confirmed that even in such cases, the translated text still allowed the missing elements to be inferred correctly from the context.},
+ title = {日英翻訳タスクにおける大規模言語モデルのゼロ照応解析性能の影響},
+ year = {2025},
+ award={若手奨励賞(学生)},
+ awardurl={https://anlp.jp/nlp2025/award.html},
+ abbr={NL研},
+ cls={misc},
+ review={no},
+ lang={jp},
+}
+
+@inproceedings{saito_etal_nlp2025_sketch,
   title={Sketch2Diagram: 視覚的指示を入力とするダイアグラム生成},
   author={斉藤, いつみ and 吉田, 遥音 and 坂口, 慶祐},
   year={2025},
@@ -13,7 +28,7 @@
   awardurl={https://anlp.jp/nlp2025/award.html},
 }
 
-@inproceedings{negishi_etal_nlp2025_pu,
+@inproceedings{kato_etal_nlp2025_pu,
   title={線形判別分析の PU 学習による朝日歌壇短歌の分析},
   author={加藤, 真大 and 浦川, 通 and 田口, 雄哉 and 新妻, 巧朗 and 田森, 秀明 and 羽根田, 賢和 and 坂口, 慶祐 and 持橋, 大地},
   year={2025},
@@ -39,7 +54,7 @@
   pdf={2025_nlp_transformer.pdf},
 }
 
-@inproceedings{negishi_etal_nlp2025_lm,
+@inproceedings{sasaki_etal_nlp2025_lm,
   title={LM は日本の時系列構造をどうエンコードするか},
   author={佐々木, 睦史 and 鴨田, 豪 and 高橋, 良允 and Benjamin, Heinzerling and 坂口, 慶祐},
   year={2025},
@@ -54,7 +69,7 @@
   awardurl={https://anlp.jp/nlp2025/award.html},
 }
 
-@inproceedings{negishi_etal_nlp2025_towards,
+@inproceedings{hong_etal_nlp2025_towards,
   title={Towards Equitable Translation: Gender Bias in Large Language Models},
   author={Hong, Hai Ngo and Yunmeng, Li and 坂口, 慶祐},
   year={2025},
@@ -67,7 +82,7 @@
   pdf={2025_nlp_towards.pdf},
 }
 
-@inproceedings{negishi_etal_nlp2025_detokenization,
+@inproceedings{kamoda_etal_nlp2025_detokenization,
   title={言語モデルのパラメータから探るDetokenizationメカニズム},
   author={鴨田, 豪 and Benjamin, Heinzerling and 稲葉, 達郎 and 工藤, 慧音 and 坂口, 慶祐 and 乾, 健太郎},
   year={2025},
@@ -80,7 +95,7 @@
   pdf={2025_nlp_detokenization.pdf},
 }
 
-@inproceedings{negishi_etal_nlp2025_grammar_locality,
+@inproceedings{sato_etal_nlp2025_grammar_locality,
   title={言語モデルの内部表現における文法情報の局所性について},
   author={佐藤, 宏亮 and 鴨田, 豪 and Benjamin, Heinzerling and 坂口, 慶祐},
   year={2025},
@@ -93,7 +108,7 @@
   pdf={2025_nlp_grammar_locality.pdf},
 }
 
-@inproceedings{negishi_etal_nlp2025_image_schema,
+@inproceedings{honda_etal_nlp2025_image_schema,
   title={認知言語学的イメージスキーマの生成と解釈における大規模言語モデルと画像生成モデルの評価},
   author={本田, 恭平 and 松﨑, 孝介 and 吉田, 遥音 and 坂口, 慶祐},
   year={2025},
@@ -106,7 +121,7 @@
   pdf={2025_nlp_image_schema.pdf},
 }
 
-@inproceedings{negishi_etal_nlp2025_ascii,
+@inproceedings{yoshida_etal_nlp2025_ascii,
   title={ASCII CHALLENGE−LLMは画家になれるか−},
   author={吉田, 遥音 and 羽根田, 賢和 and 斉藤, いつみ and 坂口, 慶祐},
   year={2025},
@@ -119,7 +134,7 @@
   pdf={2025_nlp_ascii.pdf},
 }
 
-@inproceedings{negishi_etal_nlp2025_abstract_reasoning,
+@inproceedings{seino_etal_nlp2025_abstract_reasoning,
   title={大規模言語モデルが持つ抽象推論能力の分析},
   author={清野, 輝風 and 青木, 洋一 and 斉藤, いつみ and 坂口, 慶祐},
   year={2025},
@@ -132,7 +147,7 @@
   pdf={2025_nlp_abstract_reasoning.pdf},
 }
 
-@inproceedings{negishi_etal_nlp2025_diagram_understanding,
+@inproceedings{yoshida_etal_nlp2025_diagram_understanding,
   title={ダイアグラム理解に向けた大規模視覚言語モデルの内部表現の分析},
   author={吉田, 遥音 and 工藤, 慧音 and 青木, 洋一 and 田中, 涼太 and 斉藤, いつみ and 坂口, 慶祐},
   year={2025},
