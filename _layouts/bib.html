@@ -3,7 +3,15 @@
 
 <div class="row">
   <div class="col-sm-2 abbr">
-  {% if entry.abbr %}
+
+
+  {% if entry.review == "yes" %}
+    <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
+  {% else %}
+    <arxiv class="badge">{{entry.abbr}}</arxiv>
+  {% endif %}
+ 
+  <!--{% if entry.abbr %}
     {% if site.data.venues[entry.abbr] %}
     <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
     {% elsif entry.abbr == "arXiv" %}
@@ -26,11 +34,15 @@
     <arxiv class="badge">{{entry.abbr}}</arxiv>
     {% elsif entry.abbr == "SLUD" %}
     <arxiv class="badge">{{entry.abbr}}</arxiv>
+    {% elsif entry.abbr == "IEICE" %}
+    <arxiv class="badge">{{entry.abbr}}</arxiv>
  
     {% else %}
     <abbr class="badge">{{entry.abbr}}</abbr>
     {% endif %}
   {% endif %}
+  -->
+
   </div>
 
 
