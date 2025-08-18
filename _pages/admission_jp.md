@@ -24,7 +24,7 @@ nav: true
 
 ##### 修士課程
 
-- **一般入試：** 出願可能です。詳しくは、情報科学研究科の[公式ホームページ](https://www.is.tohoku.ac.jp/jp/entrance/exam.html)をご確認ください。また、修士課程を一般受験する場合は可能な限り[事前に連絡](https://docs.google.com/forms/d/e/1FAIpQLSfPP95SMMwKN-dveYaUS84uNx05Va3qPpyqaxkuFWOtJeDywQ/viewform)していただけると助かります。 (※ 内部進学者も多く、競争率が非常に高くなっています。)
+- **一般入試：** 出願可能です。詳しくは、情報科学研究科の[公式ホームページ](https://www.is.tohoku.ac.jp/jp/entrance/exam.html)をご確認ください。また、修士課程を一般受験する場合は可能な限り[事前に連絡](https://docs.google.com/forms/d/e/1FAIpQLSfPP95SMMwKN-dveYaUS84uNx05Va3qPpyqaxkuFWOtJeDywQ/viewform)していただけると助かります。 
 
 - **推薦入学特別選抜、社会人選抜、留学生選抜：**現在は、新規受け入れが難しい状況です。一般入試をご検討ください。
 
