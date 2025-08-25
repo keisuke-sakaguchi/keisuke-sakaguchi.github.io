@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /admission/
-title: For Prospective Students and Visitors
+title: For Prospective Students
 
 nav: true
 ---
@@ -13,9 +13,9 @@ Before reaching out, we kindly ask that you review the following information.
 
 ---
 
-### Visiting the Lab
+### Lab Tours 
 
-If you would like to visit our lab, please consider participating in [Open Campus Days](https://www.online-opencampus.tnc.tohoku.ac.jp/).
+If you are interested in seeing our lab as a prospective student, we recommend participating in [Open Campus Days](https://www.online-opencampus.tnc.tohoku.ac.jp/).
 We do not arrange individual lab tours by faculty members, but it may be possible to visit through informal interactions with current students.
 
 ---
