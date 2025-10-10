@@ -19,4 +19,5 @@ group :jekyll_plugins do
     gem 'faraday-retry'
     gem 'csv'
     gem 'observer'
+    gem 'font-awesome-sass'
 end
