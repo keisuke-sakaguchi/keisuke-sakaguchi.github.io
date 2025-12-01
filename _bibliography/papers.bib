@@ -404,7 +404,7 @@ awardurl={https://aied2025.itd.cnr.it/index.php/program/main-track-best-papers-n
 }
 
 @inproceedings{kasai2024beam,
-  title={Beam Decoding with Controlled Patience},
+  title={A Call for Clarity in Beam Search: How It Works and When It Stops},
   author={Jungo Kasai and Keisuke Sakaguchi and Ronan Le Bras and Dragomir Radev and Yejin Choi and Noah A. Smith},
   booktitle={{Proceedings of 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation}},
   year={2024},
@@ -412,9 +412,9 @@ awardurl={https://aied2025.itd.cnr.it/index.php/program/main-track-best-papers-n
   review={yes},
   abbr={LREC-COLING},
   month={May},
-  pdf={2022_arxiv_beam_with_patience.pdf},
+  pdf={2024_lrec_beam.pdf},
   project={https://github.com/jungokasai/beam_with_patience},
-  abstract={Text generation with beam search has proven successful in a wide range of applications. The commonly-used implementation of beam decoding follows a first come, first served heuristic: it keeps a set of already completed sequences over time steps and stops when the size of this set reaches the beam size. We introduce a patience factor, a simple modification to this decoding algorithm, that generalizes the stopping criterion and provides flexibility to the depth of search. Extensive empirical results demonstrate that the patience factor improves decoding performance of strong pretrained models on news text summarization and machine translation over diverse language pairs, with a negligible inference slowdown. Our approach only modifies one line of code and can be thus readily incorporated in any implementation.},
+  abstract={Text generation with beam search has proven successful in a wide range of applications. We point out that, though largely overlooked in the literature, the commonly-used implementation of beam decoding (e.g., Hugging Face Transformers and fairseq) uses a first come, first served heuristic: it keeps a set of already completed sequences over time steps and stops when the size of this set reaches the beam size. Based on this finding, we introduce a patience factor, a simple modification to this beam decoding implementation, that generalizes the stopping criterion and provides flexibility to the depth of search. Empirical results demonstrate that adjusting this patience factor improves decoding performance of strong pretrained models on news text summarization and machine translation over diverse language pairs, with a negligible inference slowdown. Our approach only modifies one line of code and can be thus readily incorporated in any implementation. Further, we find that different versions of beam decoding result in large performance differences in summarization, demonstrating the need for clarity in specifying the beam search implementation in research work. Our code will be available upon publication.},
   cls={conf},
 }
 
@@ -424,7 +424,7 @@ awardurl={https://aied2025.itd.cnr.it/index.php/program/main-track-best-papers-n
     booktitle={The Twelfth International Conference on Learning Representations},
     year={2024},
     url={https://github.com/allenai/PlaSma},
-    abstract={Procedural planning, which entails decomposing a high-level goal into a sequence of temporally ordered steps, is an important yet intricate task for machines. It involves integrating common-sense knowledge to reason about complex and often contextualized situations, e.g. ``scheduling a doctor's appointment without a phone''. While current approaches show encouraging results using large language models (LLMs), they are hindered by drawbacks such as costly API calls and reproducibility issues. In this paper, we advocate planning using smaller language models. We present PlaSma, a novel two-pronged approach to endow small language models with procedural knowledge and (constrained) language-based planning capabilities. More concretely, we develop symbolic procedural knowledge distillation to enhance the commonsense knowledge in small language models and aninference-time algorithm to facilitate more structured and accurate reasoning. In addition, we introduce a new related task, Replanning, that requires a revision of a plan to cope with a constrained situation. In both the planning and replanning settings, we show that orders-of-magnitude smaller models (770M-11B parameters) can compete and often surpass their larger teacher models' capabilities. Finally, we showcase successful application of PlaSma in an embodied environment, VirtualHome.},
+    abstract={Procedural planning, which entails decomposing a high-level goal into a sequence of temporally ordered steps, is an important yet intricate task for machines. It involves integrating common-sense knowledge to reason about complex and often contextualized situations, e.g. ``scheduling a doctor's appointment without a phone''. While current approaches show encouraging results using large language models (LLMs), they are hindered by drawbacks such as costly API calls and reproducibility issues. In this paper, we advocate planning using smaller language models. We present PlaSma, a novel two-pronged approach to endow small language models with procedural knowledge and (constrained) language planning capabilities. More concretely, we develop symbolic procedural knowledge distillation to enhance the commonsense knowledge in small language models and an inference-time algorithm to facilitate more structured and accurate reasoning. In addition, we introduce a new related task, Replanning, that requires a revision of a plan to cope with a constrained situation. In both the planning and replanning settings, we show that orders-of-magnitude smaller models (770M-11B parameters) can compete and often surpass their larger teacher models' capabilities. Finally, we showcase successful application of PlaSma in an embodied environment, VirtualHome.},
     lang={en},
     abbr={ICLR},
     review={yes},
