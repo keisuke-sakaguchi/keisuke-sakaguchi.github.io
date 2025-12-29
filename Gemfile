@@ -20,4 +20,5 @@ group :jekyll_plugins do
     gem 'csv'
     gem 'observer'
     gem 'font-awesome-sass'
+    gem "ostruct"
 end
