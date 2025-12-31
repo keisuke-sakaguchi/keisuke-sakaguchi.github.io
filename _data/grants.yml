@@ -1,33 +1,38 @@
 
-#- name_jp: "BOOST"
-#  fund: "中島"
-#  fund_jp: ""
-#  period: 04/2026–03/2030
-#  budget: "x,000,000 JPY"
-#
-##- name_jp: "基盤B"
-#  fund: ""
-#  fund_jp: ""
-#  period: 04/2025–03/2028
-#  budget: "x,000,000 JPY"
-#
-#- name_jp: 
-#  fund: "中島"
-#  fund_jp: ""
-#  period: 04/2025–03/2028
-#  budget: "7,000,000 JPY"
-#
 #- name_jp: ""
-#  fund: "Google "
-#  fund_jp: "Google Research"
-#  period: 04/2025–03/2028
-#  budget: "4,000,000 JPY"
+#  fund: "JST BOOST"
+#  fund_jp: "JST BOOST"
+#  period: 04/2026–03/2030
+##  budget: "x,000,000 JPY"
 #
-#- name_jp: "moonshot"
-#  fund: ""
-#  fund_jp: ""
-#  period: 04/2024–03/2026
-#  budget: ",000,000 JPY"
+
+- name_jp: "マルチモーダル抽象推論過程の解明"
+  fund: "(PI) JSPS Grants-in-Aid for Scientific Research B (KAKENHI)"
+  fund_jp: "科研費 基盤研究B"
+  period: 04/2025–03/2028
+  budget: "17,810,000 JPY (Direct Cost: 13,700,000 JPY, Indirect Cost: 4,110,000 JPY)"
+  number: "25K03175"
+#
+- name_jp: "大規模基盤モデルとマルチモーダル抽象推論の融合による新たな知能の創出"
+  fund: "Nakajima Foundation"
+  fund_jp: "中島記念国際交流財団　日本人独立研究者始動助成金"
+  period: 04/2025–03/2028
+  budget: "7,000,000 JPY"
+#
+#
+- name_jp: "Mechanistic Interpretability for Advanced Reasoning in Large Language Models"
+  fund: "Google Research Grant "
+  fund_jp: "Google Research"
+  period: 09/2024
+  budget: "30,000 USD "
+
+- name_jp: "科学知識の空間埋め込みとアブダクションによる仮説生成モデリング"
+  fund: "(PI) JST Moonshot R&D Program"
+  fund_jp: "JST ムーンショット型研究開発事業"
+  period: 04/2024–03/2026
+  budget: "47,840,000 JPY (Direct Cost: 36,800,000 JPY, Indirect Cost: 11,040,000 JPY)"
+  note: "目標3: 人と融和して知の創造・越境をするAIロボット"
+
 #
 #- name_jp: "ABCI グランドチャレンジ"
 #  fund: ""
@@ -37,10 +42,11 @@
 
 
 - name_jp: "現実世界の逐次的環境変化に協調的に適応するマルチモーダル自然言語理解モデル"
-  fund: "JSPS Fund for the Promotion of Joint International Research (Home-Returning Researcher Development Research) 21K21343"
+  fund: "(PI) JSPS Fund for the Promotion of Joint International Research (Home-Returning Researcher Development Research)"
   fund_jp: "科研費　国際共同研究加速基金 (帰国発展研究)"
   period: 02/2022–03/2025
-  budget: "57,070,000 JPY (Direct Cost: 43,900,000 JPY, Indirect Cost: 13,170,000, JPY)"
+  budget: "57,070,000 JPY (Direct Cost: 43,900,000 JPY, Indirect Cost: 13,170,000 JPY)"
+  number: "21K21343"
 
 - name_jp: "英語大規模言語モデルの継続学習による日本語大規模モデルの構築"
   fund: "ABCI Grand Challenge” Program, National Institute of Advanced Industrial Science and Technology (AIST)"
