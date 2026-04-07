@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Associate Professor @ <a href="https://www.nlp.ecei.tohoku.ac.jp">Tohoku University NLP lab</a>. 
+description: Professor @ <a href="https://www.nlp.ecei.tohoku.ac.jp">Tohoku University NLP lab</a>. 
 
 profile:
   align: right
@@ -15,7 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am an associate professor at Tohoku University. My research interests lie at the intersection of Natural Language Processing, Machine Learning, and Psycholinguistics.
+I am a professor at Tohoku University. My research interests lie at the intersection of Natural Language Processing, Machine Learning, and Psycholinguistics.
 My long-term research goals are 
 
 1. to understand human intelligence, especially natural langauge processing, and 

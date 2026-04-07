@@ -1,3 +1,13 @@
+- name: Tohoku University
+  address: Miyagi, Japan
+  position: Professor
+  period: 04/2026 -- present
+  name_jp: 東北大学 大学院情報科学研究科
+  address_jp: Miyagi, Japan
+  position_jp: 教授
+  period_jp: 04/2026 -- 現在
+  note: 大学院情報科学研究科 システム情報科学専攻, Graduate School of Information Sciences, 工学部 電気情報物理工学科（兼担, Department of Electrical, Information and Physics Engineering, 電気通信研究所 システム・ソフトウェア研究部門 （兼務）, Research Institute of Electrical Communication, 言語AI研究センター（兼務）
+
 - name: Kotoba Technologies Inc.
   address: Tokyo, Japan
   position: Technical Advisor (Outside Director since 07/2025)
@@ -20,11 +30,11 @@
 - name: Tohoku University
   address: Miyagi, Japan
   position: Associate Professor
-  period: 07/2022 -- present
+  period_jp: 07/2022 -- 03/2026
   name_jp: 東北大学 大学院情報科学研究科
   address_jp: Miyagi, Japan
   position_jp: 准教授
-  period_jp: 07/2022 -- 現在
+  period_jp: 07/2022 -- 03/2026
   note: 大学院情報科学研究科 システム情報科学専攻, Graduate School of Information Sciences, 工学部 電気情報物理工学科（兼担, Department of Electrical, Information and Physics Engineering, 電気通信研究所 システム・ソフトウェア研究部門 （兼務）, Research Institute of Electrical Communication, 言語AI研究センター（兼務）
 
 - name: Allen Institute for AI (AI2) 
