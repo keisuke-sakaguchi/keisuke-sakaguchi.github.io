@@ -30,7 +30,7 @@ We do not arrange individual lab tours by faculty members, but it may be possibl
   - If you plan to apply through the general admission process, it would be helpful if you could contact us in advance [from this form](https://docs.google.com/forms/d/e/1FAIpQLSfPP95SMMwKN-dveYaUS84uNx05Va3qPpyqaxkuFWOtJeDywQ/viewform).
 
 - **Special Admission (for international / mature student admission)**:
-  - We are currently not accepting new students through this admission category. We recommend applying via the general admission process instead.
+  - We are currently not accepting new students through this admission category. For international students, we recommend applying via the general admission process instead.
 
 
 ##### Doctoral Program
