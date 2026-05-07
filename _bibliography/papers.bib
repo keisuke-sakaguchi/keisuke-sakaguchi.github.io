@@ -1,5 +1,55 @@
 ---
 ---
+
+@ARTICLE{choi2026barexam,
+       author = {{Choi}, Jungmin and {Sakaguchi}, Keisuke and {Yamada}, Hiroaki},
+        title = "{Expert Evaluation of LLM's Open-Ended Legal Reasoning on the Japanese Bar Exam Writing Task}",
+      journal = {arXiv},
+         year = 2026,
+        month = apr,
+          doi = {10.48550/arXiv.2604.23730},
+     abbr={ICAIL}
+     review = {yes},
+     cls={conf},
+     pdf = {2026_icail_barexam.pdf},
+     abstract = {Large language models (LLMs) have shown strong performance on legal benchmarks, including multiple-choice components of bar exams. However, their capacity for generating open-ended legal reasoning in realistic scenarios remains insufficiently explored. Notably, to our best knowledge, there are no prior studies or datasets addressing this issue in the Japanese context. This study presents the first dataset designed to evaluate the open-ended legal reasoning performance of LLMs within the Japanese jurisdiction. The dataset is based on the writing component of the Japanese bar examination, which requires examinees to identify multiple legal issues from long narratives and to construct structured legal arguments in free text format. Our key contribution is the manual evaluation of LLMs' generated responses by legal experts, which reveals limitations and challenges in legal reasoning. Moreover, we conducted a manual analysis of hallucinations to characterize when and how the models introduce content not supported by precedent or law. Our real exam questions, model-generated responses, and expert evaluations reveal the milestones of current LLMs in the Japanese legal domain. Our dataset and relevant resources will be available online.}
+}
+
+
+@ARTICLE{fujinuma2026diffusion,
+     author = {{Fujinuma}, Yoshinari and {Sakaguchi}, Keisuke},
+     title = "{Unlocking Prompt Infilling Capability for Diffusion Language Models}",
+      journal = {arXiv},
+     keywords = {Computation and Language, Artificial Intelligence},
+     year = 2026,
+     month = apr,
+     doi = {10.48550/arXiv.2604.03677},
+     abbr={arXiv}
+     review = {no},
+     cls={preprint},
+     pdf = {2026_arxiv_diffusion.pdf},
+     abstract = {Masked diffusion language models (dLMs) generate text through bidirectional denoising, yet this capability remains locked for infilling prompts. This limitation is an artifact of the current supervised finetuning (SFT) convention of applying response-only masking. To unlock this capability, we extend full-sequence masking during SFT, where both prompts and responses are masked jointly. Once unlocked, the model infills masked portions of a prompt template conditioned on few-shot examples. We show that such model-infilled prompts match or surpass manually designed templates, transfer effectively across models, and are complementary to existing prompt optimization methods. Our results suggest that training practices, not architectural limitations, are the primary bottleneck preventing masked diffusion language models from infilling effective prompts}
+}
+
+
+
+
+@ARTICLE{yoshida2026diagram,
+   author = {{Yoshida}, Haruto and {Kudo}, Keito and {Aoki}, Yoichi and {Tanaka}, Ryota and {Saito}, Itsumi and {Sakaguchi}, Keisuke and {Inui}, Kentaro},
+   title = "{Nodes Are Early, Edges Are Late: Probing Diagram Representations in Large Vision-Language Models}",
+   journal = {arXiv},
+   year = 2026,
+   month = mar,
+   doi = {10.48550/arXiv.2603.02865},
+   abbr={arXiv}
+   review = {no},
+   cls={preprint},
+   pdf = {2026_arxiv_diagram.pdf},
+   abstract = {Large vision-language models (LVLMs) demonstrate strong performance on diagram understanding benchmarks, yet they still struggle with understanding relationships between elements, particularly those represented by nodes and directed edges (e.g., arrows and lines). To investigate the underlying causes of this limitation, we probe the internal representation of LVLMs using a carefully constructed synthetic diagram dataset based on directed graphs. Our probing experiments reveal that edge information is not linearly separable in the vision encoder and becomes linearly encoded only in the text tokens in the language model. In contrast, node information and global structural features are already linearly encoded in individual hidden states of the vision encoder. These findings suggest that the stage at which linearly separable representations are formed varies depending on the type of visual information. In particular, the delayed emergence of edge representations may help explain why LVLMs struggle with relational understanding, such as interpreting edge directions, which require more abstract, compositionally integrated processes.}
+}
+
+
+
 @inproceedings{kudo2026faithful,
     title = "{LLM}s Faithfully and Iteratively Compute Answers During {C}o{T}: A Systematic Analysis With Multi-step Arithmetics",
     author = "Kudo, Keito  and
@@ -29,6 +79,57 @@
     cls={conf},
     pdf={2026_eacl_faithful.pdf}
 }
+
+@inproceedings{sasaki2025calendar,
+    title = "Can Language Models Handle a Non-Gregorian Calendar? The Case of the {J}apanese wareki",
+    author = "Sasaki, Mutsumi  and
+      Kamoda, Go  and
+      Takahashi, Ryosuke  and
+      Sato, Kosuke  and
+      Inui, Kentaro  and
+      Sakaguchi, Keisuke  and
+      Heinzerling, Benjamin",
+    editor = "Inui, Kentaro  and
+      Sakti, Sakriani  and
+      Wang, Haofen  and
+      Wong, Derek F.  and
+      Bhattacharyya, Pushpak  and
+      Banerjee, Biplab  and
+      Ekbal, Asif  and
+      Chakraborty, Tanmoy  and
+      Singh, Dhirendra Pratap",
+    booktitle = "Proceedings of the 14th International Joint Conference on Natural Language Processing and the 4th Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics",
+    month = dec,
+    year = "2025",
+    address = "Mumbai, India",
+    publisher = "The Asian Federation of Natural Language Processing and The Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.ijcnlp-short.36/",
+    doi = "10.18653/v1/2025.ijcnlp-short.36",
+    pages = "444--463",
+    ISBN = "979-8-89176-299-2",
+    abstract = "Temporal reasoning and knowledge are essential capabilities for language models (LMs).While much prior work has analyzed and improved temporal reasoning in LMs, most studies have focused solely on the Gregorian calendar.However, many non-Gregorian systems, such as the Japanese, Hijri, and Hebrew calendars, are in active use and reflect culturally grounded conceptions of time.If and how well current LMs can accurately handle such non-Gregorian calendars has not been evaluated so far.Here, we present a systematic evaluation of how well language models handle one such non-Gregorian system: the Japanese *wareki*.We create datasets that require temporal knowledge and reasoning in using *wareki* dates. Evaluating open and closed LMs, we find that some models can perform calendar conversions, but GPT-4o, Deepseek V3, and even Japanese-centric models struggle with Japanese calendar arithmetic and knowledge involving *wareki* dates.Error analysis suggests corpus frequency of Japanese calendar expressions and a Gregorian bias in the model{'}s knowledge as possible explanations.Our results show the importance of developing LMs that are better equipped for culture-specific tasks such as calendar understanding.",
+    lang={en},
+    abbr={IJCNLP},
+    review={yes},
+    cls={conf},
+    pdf={2025_ijcnlp_calendar.pdf}
+}
+
+@ARTICLE{tarek2025camellia,
+   author = {{Naous}, Tarek and {Savit}, Anagha and {Catalan}, Carlos Rafael and {Guo}, Geyang and {Lee}, Jaehyeok and {Lee}, Kyungdon and {Dizon}, Lheane Marie and {Ye}, Mengyu and {Kothari}, Neel and {Singh}, Sahajpreet and {Masud}, Sarah and {Patwa}, Tanish and {Thanh Tran}, Trung and {Khan}, Zohaib and {Ritter}, Alan and {Bak}, JinYeong and {Sakaguchi}, Keisuke and {Chakraborty}, Tanmoy and {Arase}, Yuki and {Xu}, Wei},
+   title = "{Camellia: Benchmarking Cultural Biases in LLMs for Asian Languages}",
+   journal = {arXiv},
+   year = 2025,
+   month = oct,
+   doi = {10.48550/arXiv.2510.05291},
+   lang = {en},
+   abbr={arXiv}
+   review = {no},
+   cls={preprint}
+   pdf = {2025_arxiv_camellia.pdf},
+   abstract = {As Large Language Models (LLMs) gain stronger multilingual capabilities, their ability to handle culturally diverse entities becomes crucial. Prior work has shown that LLMs often favor Western-associated entities in Arabic, raising concerns about cultural fairness. Due to the lack of multilingual benchmarks, it remains unclear if such biases also manifest in different non-Western languages. In this paper, we introduce Camellia, a benchmark for measuring entity-centric cultural biases in nine Asian languages spanning six distinct Asian cultures. Camellia includes 19,530 entities manually annotated for association with the specific Asian or Western culture, as well as 2,173 naturally occurring masked contexts for entities derived from social media posts. Using Camellia, we evaluate cultural biases in four recent multilingual LLM families across various tasks such as cultural context adaptation, sentiment association, and entity extractive QA. Our analyses show a struggle by LLMs at cultural adaptation in all Asian languages, with performance differing across models developed in regions with varying access to culturally-relevant data. We further observe that different LLM families hold their distinct biases, differing in how they associate cultures with particular sentiments. Lastly, we find that LLMs struggle with context understanding in Asian languages, creating performance gaps between cultures in entity extraction.}
+}
+
 
 @inproceedings{takahashi2025understanding,
     title = "Understanding the Side Effects of Rank-One Knowledge Editing",
