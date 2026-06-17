@@ -11,3 +11,5 @@ vendor
 *1p*
 todo.txt
 get_papers.py
+venv/
+.venv/
