@@ -382,8 +382,6 @@ scholar:
   details_link: Details
 
   query: "@*"
-  group_by: year
-  group_order: descending
   
   # https://github.com/inukshuk/jekyll-scholar/pull/295
   bibliography_list_attributes:
