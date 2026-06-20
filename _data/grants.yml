@@ -1,3 +1,7 @@
+- name_jp: "7B オープン一様拡散言語モデルの大規模事前学習"
+  fund: "TSUBAME Grand Challenge Large-Scale Computing Program"
+  fund_jp: "TSUBAME グランドチャレンジ大規模計算制度"
+  period: 06/2026
 
 - name_jp: "大規模基盤モデルのマルチモーダル抽象推論"
   fund: "JST BOOST: Broadening Opportunities for Outstanding young researchers and doctoral students in STrategic areas"
@@ -42,7 +46,6 @@
   fund: "TSUBAME Grand Challenge Large-Scale Computing Program"
   fund_jp: "TSUBAME グランドチャレンジ大規模計算制度"
   period: 06/2024
-
 
 - name_jp: "英語大規模言語モデルの継続学習による日本語大規模モデルの構築"
   fund: "ABCI Grand Challenge” Program, National Institute of Advanced Industrial Science and Technology (AIST)"
