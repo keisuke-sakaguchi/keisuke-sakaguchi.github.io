@@ -1,0 +1,14 @@
+/**
+ * Styles specific to your application go here.
+ *
+ * For a list of CSS variables, see:
+ * https://cdn.jsdelivr.net/npm/@allenai/varnish/dist/shellac.css
+ *
+ * For more on CSS variables and how to use them, see:
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
+ */
+
+.tagline {
+    font-size: var(--typography-body-jumbo-font-size);
+    line-height: var(--typography-body-jumbo-line-height);
+}
