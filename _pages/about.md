@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Professor @ <a href="https://www.nlp.ecei.tohoku.ac.jp">Tohoku University NLP lab</a>. 
+description: Professor @ <a href="https://cl.is.tohoku.ac.jp/">Tohoku University CL lab</a>. 
 
 profile:
   align: right
