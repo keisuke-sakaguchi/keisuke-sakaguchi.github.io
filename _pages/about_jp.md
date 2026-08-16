@@ -2,7 +2,7 @@
 layout: about_jp
 title: about_jp
 permalink: /about_jp/
-description: 教授 @ <a href="https://cl.is.tohoku.ac.jp/">東北大学 大学院情報科学研究科 自然言語処理研究室</a>. 
+description: 教授 @ <a href="https://cl.is.tohoku.ac.jp/">東北大学 大学院情報科学研究科 自然言語処理研究室</a> (<a href="https://www.nlp.ecei.tohoku.ac.jp/">東北NLPグループ</a>). <br /> 研究員 @ <a href="https://aip.riken.jp/labs/domain_intel/nat_lang_understand/?lang=ja">理研AIP</a>
 
 profile:
   align: right
