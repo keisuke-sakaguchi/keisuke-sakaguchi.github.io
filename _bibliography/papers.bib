@@ -1,5 +1,19 @@
 ---
 ---
+@inproceedings{sakaguchi2026,
+  author    = {Sakaguchi, Keisuke},
+  title     = {{GRACE: A Tunable Metric Unifying Accuracy and Efficiency for Robotics Evaluation}},
+  booktitle = {2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  year      = {2026},
+  month = sep,
+  abbr = {IROS},
+  review = {yes},
+  cls={conf},
+  lang={en},
+  pdf={2026_iros_grace.pdf},
+  abstract={Robotics evaluation metrics generally report success rate and speed separately, ignoring the trade-off between efficiency and accuracy and making cross-benchmark comparisons difficult. To address this, we introduce GRACE (Generalized Robotics Accuracy-Completion Evaluation), a metric that unifies success rate and timing efficiency through a tunable harmonic mean. The β parameter balances accuracy against speed, and the τ parameter controls deadline strictness. We illustrate GRACE on published benchmark results through source-audited case studies on Habitat ObjectNav, an RLBench generalization sub-benchmark, and CALVIN ABC→D. For Habitat, where wall-clock timing is not standardized, we instantiate GRACE with an explicitly declared path-efficiency proxy derived from published SR and SPL values. For RLBench and CALVIN, we use timing values reported in the same source as the success results: RLBench average task-completion time and CALVIN same-hardware per-action inference time. The results show that GRACE surfaces accuracy/efficiency trade-offs and regime-dependent ranking reversals that success-only reporting obscures, while providing more interpretable parameterization than baseline approaches. We release GRACE as an open-source toolkit to support consistent accuracy/efficiency evaluation across navigation, manipulation, long-horizon, and other robotics tasks.},
+}
+
 @ARTICLE{ye2026sumi,
        author = {{Ye}, Mengyu and {Kudo}, Keito and {Ikeda}, Wataru and {Matsuda}, Ryosuke and {Sakaguchi}, Keisuke and {Suzuki}, Jun},
         title = "{Sumi: Open Uniform Diffusion Language Model from Scratch}",

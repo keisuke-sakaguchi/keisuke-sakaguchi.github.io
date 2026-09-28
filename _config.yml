@@ -115,7 +115,8 @@ gitlab_username: # your GitLab user name
 twitter_username: KeisukeS_ # your Twitter handle
 linkedin_username: keisks # your LinkedIn user name
 scholar_userid: 6CRBF-MAAAAJ # your Google Scholar ID
-orcid_id: # 0000-0002-3809-1732 your ORCID ID
+semanticscholar_id: 2325708 #your semantic scholar id
+orcid_id:  0000-0002-3809-1732 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -126,7 +127,6 @@ keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
-semanticscholar_id: 2325708 #your semantic scholar id
 
 rss_icon: true
 
