@@ -1,5 +1,67 @@
 ---
 ---
+@inproceedings{naous2026camellia,
+        title = {Camellia: Benchmarking Cultural Biases in {LLM}s for {A}sian Languages},
+        author = {Naous, Tarek and Savit, Anagha and Catalan, Carlos Rafael and Guo, Geyang and Lee, Jaehyeok and Lee, Kyungdon and Dizon, Lheane Marie and Ye, Mengyu and Kothari, Neel and Singh, Sahajpreet and Masud, Sarah and Patwa, Tanish and Tran, Trung Thanh and Khan, Zohaib and Ritter, Alan and Chakraborty, Tanmoy and Arase, Yuki and Sakaguchi, Keisuke and Bak, JinYeong and Xu, Wei},
+        editor = {Lee, Hung-Yi and Dev, Sunipa and Li, Jessy and Elliott, Desmond},
+        booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
+        year = {2026},
+        address = {Budapest, Hungary},
+        publisher = {Association for Computational Linguistics},
+        url = {https://aclanthology.org/2026.emnlp-main.783/},
+        doi = {10.18653/2026.emnlp-main.783},
+        pages = {18203--18226},
+        ISBN = {979-8-89176-459-0},
+        abstract = {As Large Language Models (LLMs) develop stronger multilingual capabilities, their sensitivity to culturally diverse entities becomes increasingly important. Prior work by Naous et al. (2024) has shown that LLMs often favor Western-associated entities in Arabic. Due to the lack of entity-centric multilingual benchmarks, it remains unclear if such biases also manifest in various non-Western languages. In this paper, we introduce Camellia, a benchmark for evaluating entity-centric cultural biases in nine Asian languages, spanning six Asian cultures. Camellia includes 19,530 manually annotated entities associated with the covered Asian or Western cultures, as well as 2,173 masked contexts for these entities derived from social media posts. Using Camellia, we evaluate cultural biases in four recent multilingual LLMs across three tasks: cultural context adaptation, sentiment association, and entity extractive QA. Our analyses show that LLMs struggle with cultural adaptation across these languages, with performance differing across models developed in different regions. We further observe that different LLM families can hold distinct biases, reflected in the ways they link cultures to particular sentiments. Lastly, we find that LLMs can struggle with context understanding in some Asian languages, creating performance gaps between cultures in entity extraction.},
+        lang = {en},
+        abbr = {EMNLP},
+        review = {yes},
+        cls = {conf},
+        pdf = {https://aclanthology.org/2026.emnlp-main.783.pdf},
+        month = oct,
+}
+
+@inproceedings{yoshida2026diagram,
+        title = {Signals Are Present, Predictions Fail: Probing Diagram Representations in Large Vision-Language Models},
+        author = {Yoshida, Haruto and Kudo, Keito and Aoki, Yoichi and Tanaka, Ryota and Saito, Itsumi and Sakaguchi, Keisuke and Inui, Kentaro},
+        editor = {Lee, Hung-Yi and Dev, Sunipa and Li, Jessy and Elliott, Desmond},
+        booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
+        year = {2026},
+        address = {Budapest, Hungary},
+        publisher = {Association for Computational Linguistics},
+        url = {https://aclanthology.org/2026.emnlp-main.2689/},
+        doi = {10.18653/2026.emnlp-main.2689},
+        pages = {61160--61197},
+        ISBN = {979-8-89176-459-0},
+        abstract = {Large vision-language models (LVLMs) demonstrate strong performance on diagram understanding benchmarks, yet they still struggle to understand relationships between elements, particularly those represented by directed edges between nodes. To investigate the causes of this limitation, we probe the internal representations of LVLMs using a synthetic diagram dataset based on directed graphs. Our linear probing experiments reveal that signals about nodes and edges are linearly decodable from the hidden states of LVLMs, even for aspects that LVLMs struggle with in VQA, such as edge direction and connectivity between nodes. These results reveal a gap between internal signals and model outputs. We further perform causal interventions on the model{'}s hidden states, showing that, for some aspects, the signals identified through probing causally contribute to the model{'}s final predictions. These findings also hold on flowcharts, not only on synthetic diagrams.},
+        lang = {en},
+        abbr = {EMNLP},
+        review = {yes},
+        cls = {conf},
+        pdf = {https://aclanthology.org/2026.emnlp-main.2689.pdf},
+        month = oct,
+}
+
+@inproceedings{kiya2026rope,
+        title = {It{'}s Not {R}o{PE} that Creates Sinks: The Role of Self-Concentration and Value-Non-Mixing in Attention},
+        author = {Kiya, Raito and Ohashi, Satoki and Sato, Kosuke and Kamoda, Go and Takahashi, Ryosuke and Yamamoto, Yuji and Shiono, Daiki and Sakaguchi, Keisuke and Kobayashi, Goro},
+        editor = {Lee, Hung-Yi and Dev, Sunipa and Li, Jessy and Elliott, Desmond},
+        booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
+        year = {2026},
+        address = {Budapest, Hungary},
+        publisher = {Association for Computational Linguistics},
+        url = {https://aclanthology.org/2026.emnlp-main.1366/},
+        pages = {31160--31184},
+        ISBN = {979-8-89176-459-0},
+        abstract = {Large Language Models (LLMs) often exhibit ``Attention Sink'' (AS) and the accompanying ``Massive Activations'' (MAs) at the initial position of a sequence. These phenomena frequently co-occur, and MAs can pose challenges for low-bit quantization. In this study, we analyze the factors underlying AS and MAs that emerge at the initial position regardless of the token occupying it. Our experiments suggest that self-concentration of attention, resulting from the causal mask, and the subsequent Value-non-mixing in attention outputs contribute to AS and MAs. These findings provide new empirical evidence on the internal dynamics of LLMs, offering insights that may inform future quantization strategies and advance our understanding of the internal mechanisms of attention layers.},
+        lang = {en},
+        abbr = {EMNLP},
+        review = {yes},
+        cls = {conf},
+        pdf = {https://aclanthology.org/2026.emnlp-main.1366.pdf},
+        month = oct,
+}
+
 @inproceedings{sakaguchi2026,
   author    = {Sakaguchi, Keisuke},
   title     = {{GRACE: A Tunable Metric Unifying Accuracy and Efficiency for Robotics Evaluation}},
@@ -102,21 +164,6 @@
 }
 
 
-@article{yoshida2026diagram,
-        author = {{Yoshida}, Haruto and {Kudo}, Keito and {Aoki}, Yoichi and {Tanaka}, Ryota and {Saito}, Itsumi and {Sakaguchi}, Keisuke and {Inui}, Kentaro},
-        title = "{Nodes Are Early, Edges Are Late: Probing Diagram Representations in Large Vision-Language Models}",
-        journal = {arXiv},
-        year = 2026,
-        month = mar,
-        doi = {10.48550/arXiv.2603.02865},
-        abbr={arXiv},
-        review = {no},
-        cls={preprint},
-        lang={en},
-        pdf = {2026_arxiv_diagram.pdf},
-        abstract = {Large vision-language models (LVLMs) demonstrate strong performance on diagram understanding benchmarks, yet they still struggle with understanding relationships between elements, particularly those represented by nodes and directed edges (e.g., arrows and lines). To investigate the underlying causes of this limitation, we probe the internal representation of LVLMs using a carefully constructed synthetic diagram dataset based on directed graphs. Our probing experiments reveal that edge information is not linearly separable in the vision encoder and becomes linearly encoded only in the text tokens in the language model. In contrast, node information and global structural features are already linearly encoded in individual hidden states of the vision encoder. These findings suggest that the stage at which linearly separable representations are formed varies depending on the type of visual information. In particular, the delayed emergence of edge representations may help explain why LVLMs struggle with relational understanding, such as interpreting edge directions, which require more abstract, compositionally integrated processes.}
-}
-
 @inproceedings{kudo2026faithful,
         title = "{LLM}s Faithfully and Iteratively Compute Answers During {C}o{T}: A Systematic Analysis With Multi-step Arithmetics",
         author = "Kudo, Keito  and
@@ -181,22 +228,6 @@
         cls={conf},
         pdf={2025_ijcnlp_calendar.pdf}
 }
-
-@ARTICLE{tarek2025camellia,
-        author = {{Naous}, Tarek and {Savit}, Anagha and {Catalan}, Carlos Rafael and {Guo}, Geyang and {Lee}, Jaehyeok and {Lee}, Kyungdon and {Dizon}, Lheane Marie and {Ye}, Mengyu and {Kothari}, Neel and {Singh}, Sahajpreet and {Masud}, Sarah and {Patwa}, Tanish and {Thanh Tran}, Trung and {Khan}, Zohaib and {Ritter}, Alan and {Bak}, JinYeong and {Sakaguchi}, Keisuke and {Chakraborty}, Tanmoy and {Arase}, Yuki and {Xu}, Wei},
-        title = "{Camellia: Benchmarking Cultural Biases in LLMs for Asian Languages}",
-        journal = {arXiv},
-        year = 2025,
-        month = oct,
-        doi = {10.48550/arXiv.2510.05291},
-        lang = {en},
-        abbr={arXiv},
-        review = {no},
-        cls={preprint},
-        pdf = {2025_arxiv_camellia.pdf},
-        abstract = {As Large Language Models (LLMs) gain stronger multilingual capabilities, their ability to handle culturally diverse entities becomes crucial. Prior work has shown that LLMs often favor Western-associated entities in Arabic, raising concerns about cultural fairness. Due to the lack of multilingual benchmarks, it remains unclear if such biases also manifest in different non-Western languages. In this paper, we introduce Camellia, a benchmark for measuring entity-centric cultural biases in nine Asian languages spanning six distinct Asian cultures. Camellia includes 19,530 entities manually annotated for association with the specific Asian or Western culture, as well as 2,173 naturally occurring masked contexts for entities derived from social media posts. Using Camellia, we evaluate cultural biases in four recent multilingual LLM families across various tasks such as cultural context adaptation, sentiment association, and entity extractive QA. Our analyses show a struggle by LLMs at cultural adaptation in all Asian languages, with performance differing across models developed in regions with varying access to culturally-relevant data. We further observe that different LLM families hold their distinct biases, differing in how they associate cultures with particular sentiments. Lastly, we find that LLMs struggle with context understanding in Asian languages, creating performance gaps between cultures in entity extraction.}
-}
-
 
 @inproceedings{takahashi2025understanding,
         title = "Understanding the Side Effects of Rank-One Knowledge Editing",
